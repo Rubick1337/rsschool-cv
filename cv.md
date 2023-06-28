@@ -91,3 +91,7 @@ class Program
     }
 }
 ```
+# Education
+I am studying at the university.Specialization in Automated Information Processing Systems.
+# English language
+English was taught at school and is taught at the university.
