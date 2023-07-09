@@ -6,6 +6,27 @@ footer
     position: absolute;
     width: 100%;
 }
+nav
+{
+    background-color: rgb(151, 148, 148);
+    position: fixed; 
+    top: 0;
+    height: 40px;
+    left: 0;
+    width: 100%;
+
+}   
+nav ul
+{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+nav a
+{
+    color: rgb(244, 239, 239);
+    text-decoration: none;
+}
 h1
 {
     font-size: 24px;
@@ -32,6 +53,4 @@ img
 }
 footer img 
 {
-    display: inline-block;
-    vertical-align: middle;
 }
