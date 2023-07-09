@@ -1,5 +1,6 @@
 # Name and surname
 Aleksey Gusev.
+![avatar](images/avatar.png)
 # Contacts for communication
  mail - poss1337@gmail.com, discord - Тактика 212 #2621,phone number - +375(33) 694-53-96,telegram - @AlexeyGuse.
 # Brief information about yourself
