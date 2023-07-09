@@ -51,9 +51,9 @@ class Program
     {
         int[,] array = new int[str, stolb]; ;
         Random random = new Random();
-        for (int i = 0; i < array.GetLength(0); i++)
+        for (int i = 0; i &lt; array.GetLength(0); i++)
         {
-            for (int j = 0; j < array.GetLength(1); j++)
+            for (int j = 0; j &lt; array.GetLength(1); j++)
             {
                 array[i, j] = random.Next(-10, 10);
             }
@@ -62,9 +62,9 @@ class Program
     }
     static void OutPutArray(int[,] array)
     {
-        for (int i = 0; i < array.GetLength(0); i++)
+        for (int i = 0; i &lt; array.GetLength(0); i++)
         {
-            for (int j = 0; j < array.GetLength(1); j++)
+            for (int j = 0; j &lt; array.GetLength(1); j++)
             {
                 Console.Write($"\t{array[i, j]}");
             }
@@ -74,9 +74,9 @@ class Program
     static int FindZeroElement(int[,] array)
     {
         int count = 0;
-        for (int i = 0; i < array.GetLength(0); i++)
+        for (int i = 0; i &lt; array.GetLength(0); i++)
         {
-            for (int j = 0; j < array.GetLength(1); j++)
+            for (int j = 0; j &lt; array.GetLength(1); j++)
             {
                 if (array[i, j] == 0)
                 {
@@ -99,7 +99,7 @@ class Program
         {
             str1 = array.GetLength(0) / 2; // центр
         }
-        for (int j = 0; j < array.GetLength(0) - 1; j++)
+        for (int j = 0; j &lt; array.GetLength(0) - 1; j++)
         {
             int temp = array[str1, j];
             array[str1, j] = array[str2, j];
