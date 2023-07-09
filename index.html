@@ -2,7 +2,32 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>CV.Cross-Check</title>
+        <style>
+            footer 
+            {
+                background-color: #9f9799;
+                height: 210px;
+                left: 0;
+                position: absolute;
+                width: 100%;
+            }
+            body
+            {       
+                margin: 0;
+                padding: 0;
+            }  
+            h1
+            {
+                font-size: 24px;
+                font-weight: bold;
+            } 
+            p
+            {
+                font-size: 16px;
+                line-height: 1.5;
+            }
+          </style> 
     </head>
     <body>
         <header>
@@ -10,22 +35,22 @@
             <h2>Navigation:</h2>
             <nav>
                 <ul>
-                    <li><a href="#Name and surname">Name and surname</a></li>
-                    <li><a href="#Contacts for communication">Contacts for communication</a></li>
-                    <li><a href="#Brief information about yourself">Brief information about yourself</a></li>
+                    <li><a href="#Name%20and%20surname">Name and surname</a></li>
+                    <li><a href="#Contacts%20for%20communication">Contacts for communication</a></li>
+                    <li><a href="#Brief%20information%20about%20yourself">Brief information about yourself</a></li>
                     <li><a href="#Skills">Skills</a></li>
-                    <li><a href="#Code Examples">Code Examples</a></li>
+                    <li><a href="#Code%20Examples">Code Examples</a></li>
                     <li><a href="#Education">Education</a></li>
-                    <li><a href="#Work experience">Work experience</a></li>
-                    <li><a href="#English language">English language</a></li>                  
+                    <li><a href="#Work%20experience">Work experience</a></li>
+                    <li><a href="#English%20language">English language</a></li>                  
                 </ul>
             </nav>
         </header>
         <main>
-            <h2 id="Name and surname">Name and surname</h2>
+            <h2 id="Name%20and%20surname">Name and surname</h2>
             <p>Aleksey Gusev</p>
             <img src="images/avatar.png" alt="user's avatar discord" width="120" height="120">
-            <h2 id="Contacts for communication">Contacts for communication</h2>
+            <h2 id="Contacts%20for%20communication">Contacts for communication</h2>
             Contacts:
             <ul>
                 <li>mail - poss1337@gmail.com</li>
@@ -33,7 +58,7 @@
                 <li>phone number - +375(33) 694-53-96</li>
                 <li>telegram - @AlexeyGuse.</li>
             </ul>
-            <h2 id="Brief information about yourself">Brief information about yourself</h2>
+            <h2 id="Brief%20information%20about%20yourself">Brief information about yourself</h2>
             <p>I want to learn programming languages, create interesting projects and learn everything new because it's very interesting for me.</p>
             <h2 id="Skills">Skills</h2> 
             My skills:
@@ -41,7 +66,7 @@
                 <li>I know programming languages c# and a little python.</li>
                 <li>Worked on the framework .Net version 6.0. The development tools I used: pycharm and Visual Studio.</li>
             </ul>
-            <h2 id="Code Examples">Code Examples</h2>
+            <h2 id="Code%20Examples">Code Examples</h2>
             <pre><code>
 using System;
 
@@ -51,9 +76,9 @@ class Program
     {
         int[,] array = new int[str, stolb]; ;
         Random random = new Random();
-        for (int i = 0; i < array.GetLength(0); i++)
+        for (int i = 0; i &lt; array.GetLength(0); i++)
         {
-            for (int j = 0; j < array.GetLength(1); j++)
+            for (int j = 0; j &lt; array.GetLength(1); j++)
             {
                 array[i, j] = random.Next(-10, 10);
             }
@@ -62,9 +87,9 @@ class Program
     }
     static void OutPutArray(int[,] array)
     {
-        for (int i = 0; i < array.GetLength(0); i++)
+        for (int i = 0; i &lt; array.GetLength(0); i++)
         {
-            for (int j = 0; j < array.GetLength(1); j++)
+            for (int j = 0; j &lt; array.GetLength(1); j++)
             {
                 Console.Write($"\t{array[i, j]}");
             }
@@ -74,9 +99,9 @@ class Program
     static int FindZeroElement(int[,] array)
     {
         int count = 0;
-        for (int i = 0; i < array.GetLength(0); i++)
+        for (int i = 0; i &lt; array.GetLength(0); i++)
         {
-            for (int j = 0; j < array.GetLength(1); j++)
+            for (int j = 0; j &lt; array.GetLength(1); j++)
             {
                 if (array[i, j] == 0)
                 {
@@ -99,7 +124,7 @@ class Program
         {
             str1 = array.GetLength(0) / 2; // центр
         }
-        for (int j = 0; j < array.GetLength(0) - 1; j++)
+        for (int j = 0; j &lt; array.GetLength(0) - 1; j++)
         {
             int temp = array[str1, j];
             array[str1, j] = array[str2, j];
@@ -128,25 +153,15 @@ class Program
             </code></pre>
             <h2 id="Education">Education</h2>
             <p>I am studying at the university.Specialization in Automated Information Processing Systems.</p>
-            <h2 id="Work experience">Work experience</h2>
+            <h2 id="Work%20experience">Work experience</h2>
             <p>I have no work experience</p>
-            <h2 id="English language">English language</h2>
+            <h2 id="English%20language">English language</h2>
             <p>English was taught at school and is taught at the university.</p>
         </main>
         <footer>
             <p>2023 Alexey Gusev</p>
             <p><a href="https://github.com/Rubick1337">GitHub link</a></p>           
             <a href="https://rs.school/js-stage0/"><img src="images/rs_school_js.svg" width="120" height="120" alt="Course Logo and url course"></a>        
-            <style>
-              footer 
-              {
-                  background-color: #9f9799;
-                  height: 210px;
-                  left: 0;
-                  position: absolute;
-                  width: 100%;
-              }
-            </style>    
         </footer>
     </body>
 </html>
