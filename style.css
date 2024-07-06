@@ -29,3 +29,74 @@ body {
     text-decoration: none;
     color: black;
 }
+
+.main-container {
+    display: flex;
+}
+
+.left-column {
+    background-color: #ebd4d4;
+    display: flex;
+    flex-direction: column;
+    width: 39%;
+}
+
+.profile {
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.profile-info {
+    display: flex;
+}
+
+.profile-img {
+    border-radius: 2%;
+    height: 220px;
+    width: 150px;
+}
+
+.divider {
+    background-color: black;
+    height: 2px;
+    width: 89%;
+}
+
+.contact-list {
+    list-style-type: none;
+}
+
+.icon {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.contact-link {
+    text-decoration: none;
+    color: black;
+}
+
+.skills-list {
+    list-style-type: none;
+}
+
+.right-column {
+    background-color: #fff0f0;
+    width: 61%;
+}
+
+.content {
+    margin-left: 100px;
+}
+
+.projects-list {
+    list-style-type: none;
+}
+
+.project-link {
+    text-decoration: none;
+    color: black;
+}
