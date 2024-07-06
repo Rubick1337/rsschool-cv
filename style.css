@@ -24,7 +24,14 @@ body {
     gap: 30px;
     list-style-type: none;
 }
-
+.nav-link
+{
+    transition: all 0.3s ease-in-out;
+}
+.nav-link:hover
+{
+    color:rgb(166, 110, 41);
+}
 .nav-link {
     text-decoration: none;
     color: black;
@@ -39,6 +46,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 39%;
+    animation: slideInLeft 1s forwards;
 }
 
 .profile {
@@ -79,12 +87,17 @@ body {
 .contact-link {
     text-decoration: none;
     color: black;
+    transition: all 0.3s ease-in-out;
 }
-
+.contact-link:hover
+{
+    color:rgb(166, 110, 41);
+}
 
 .right-column {
     background-color: #fff0f0;
     width: 69%;
+    animation: slideInRight 1s forwards;
 }
 
 .content {
@@ -94,8 +107,12 @@ body {
 .project-link {
     text-decoration: none;
     color: black;
+    transition: all 0.3s ease-in-out;
 }
-
+.project-link:hover
+{
+    color:rgb(166, 110, 41);
+}
 .footer {
     background-color: #5c341e;
     height: 115px;
@@ -115,3 +132,23 @@ body {
     width: 100px;
     height: 100px;
 }
+@keyframes slideInLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  @keyframes slideInRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
