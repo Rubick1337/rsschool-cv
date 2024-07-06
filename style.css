@@ -43,13 +43,15 @@ body {
 
 .profile {
     display: flex;
-    gap: 30px;
+    flex-direction: column;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 .profile-info {
     display: flex;
+    gap: 45px;
 }
 
 .profile-img {
@@ -79,24 +81,37 @@ body {
     color: black;
 }
 
-.skills-list {
-    list-style-type: none;
-}
 
 .right-column {
     background-color: #fff0f0;
-    width: 61%;
+    width: 69%;
 }
 
 .content {
-    margin-left: 100px;
-}
-
-.projects-list {
-    list-style-type: none;
+    margin-left: 20px;
 }
 
 .project-link {
     text-decoration: none;
     color: black;
+}
+
+.footer {
+    background-color: #5c341e;
+    height: 115px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.github-img {
+    width: 100px;
+    height: 100px;
+}
+.rsschool
+{
+    width: 100px;
+    height: 100px;
 }
