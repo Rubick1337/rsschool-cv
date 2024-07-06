@@ -1,10 +1,95 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="body">
+    <header class="header">
+        <div class="nav-container">
+            <nav>
+                <ul class="nav-list">
+                    <li><a href="#Contacts" class="nav-link">Contacts</a></li>
+                    <li><a href="#Brief%20information%20about%20yourself" class="nav-link">Brief information</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#Code%20Examples" class="nav-link">Code Examples</a></li>
+                    <li><a href="#Education" class="nav-link">Education</a></li>
+                    <li><a href="#Work%20experience" class="nav-link">Work experience</a></li>
+                    <li><a href="#English%20language" class="nav-link">English language</a></li>   
+                    <li><a href="#projects" class="nav-link">projects</a></li>               
+                </ul>
+            </nav>
+        </div>     
+    </header>
+    <main>
+        <div class="main-container"> 
+            <div class="left-column">
+                <div class="profile">
+                    <div class="profile-info">
+                        <div>
+                            <h1>Aleksey Gusev </h1>
+                            <h3>Student</h3>
+                        </div>
+                        <img src="../images/photo_2023-10-26_17-26-17.jpg" alt="photo" class="profile-img">
+                    </div>
+                    <hr class="divider">
+                    <h2 id="Contacts%20for%20communication">Contacts</h2>
+                    <ul class="contact-list">
+                        <li><img src="../images/tel.png" alt="phone.png" class="icon"><a href="tel:+79602292800" class="contact-link">+79602292800 <sub>beeline</sub></a></li>
+                        <li><img src="../images/48350531415883.56594a7b12b5d.png" alt="gmail.png" class="icon"><a href="mailto:poss1337@gmail.com" class="contact-link">poss1337@gmail.com</a></li>
+                    </ul>
+                    <hr class="divider">
+                    <h2 id="Brief%20information%20about%20yourself">Brief information about yourself</h2>
+                    <p>I want to learn programming languages, create interesting projects and learn everything new because it's very interesting for me.</p>
+                    <hr class="divider">
+                    <h2 id="skills">Skills</h2> 
+                    <ul class="skills-list">
+                        <li>I know programming languages c# and a little python.</li>
+                        <li>Worked on the framework .Net version 6.0. The development tools I used: pycharm and Visual Studio.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right-column">
+                <div class="content">
+                    <h2 id="Code%20Examples">Code Examples</h2>
+                    <pre><code>
+                        using System;
+
+                        class Program
+                        {
+                            static void Main()
+                            {
+                                Console.WriteLine("Привет, мир!");
+                            }
+                        }
+                    </code></pre>
+                    <h2 id="Education">Education</h2>
+                    <p>I am studying at the university.Specialization in Automated Information Processing Systems.</p>
+                    <h2 id="Work%20experience">Work experience</h2>
+                    <p>I have no work experience</p>
+                    <h2 id="English%20language">English language</h2>
+                    <p>English was taught at school and is taught at the university.</p>
+                    <h2 id="projects">My projects</h2>
+                    <ul class="projects-list">
+                        <li><a href="https://github.com/Rubick1337/Valentine-card" class="project-link">Valentine-card</a></li>
+                        <li><a href="https://github.com/Rubick1337/Gallery" class="project-link">Gallery</a></li>
+                        <li><a href="https://github.com/Rubick1337/VideoPlayer" class="project-link">VideoPlayer</a></li>
+                        <li>Library</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer-content">
+            <h3>2024 Alexey Gusev</h3>
+            <div class="group-links-footer">
+                <a href="https://github.com/Rubick1337"><img src="../images/github.png" alt="github png" class="github-img"></a>   
+                <a href="https://rs.school/courses/javascript-ru"><img src="../images/rs-school-logo.svg" alt="png" class="rsschool"></a>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
